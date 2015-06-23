@@ -1,6 +1,6 @@
 # WeixinAuthorizeExt
 
-使用weixin_authorize gem有的用户nickname 包含了ascii符号，导致JSON parse 报错
+使用[weixin_authorize](https://github.com/lanrion/weixin_authorize)获取用户信息是nickname 包含了ascii符号，导致JSON parse 报错
 JSON::ParserError: lexical error: invalid character inside string.
           ","nickname":"👒℡™💍🎀","sex":2,"language"
                      (right here) ------^
@@ -9,7 +9,7 @@ JSON::ParserError: lexical error: invalid character inside string.
 
 Add this line to your application's Gemfile:
 
-    gem 'weixin_authorize_ext'
+    gem 'weixin_authorize_ext', git: ''
 
 And then execute:
 
