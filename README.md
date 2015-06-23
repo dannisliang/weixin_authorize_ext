@@ -9,7 +9,7 @@ JSON::ParserError: lexical error: invalid character inside string.
 
 Add this line to your application's Gemfile:
 
-    gem 'weixin_authorize_ext', git: ''
+    gem 'weixin_authorize_ext', git: 'https://github.com/huxinghai1988/weixin_authorize_ext.git'
 
 And then execute:
 
